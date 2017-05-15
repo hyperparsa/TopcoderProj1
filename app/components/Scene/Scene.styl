@@ -1,0 +1,66 @@
+.header,.footer,.map,.timeline{ position:absolute; right:0;left:0}
+
+.header {
+  height:40px;
+  button{
+    height:30px;
+    margin:5 2.5;
+    color:white;
+    background-color: #6d6d6d;
+  }
+}
+
+.footer{
+  height:60px; bottom:0;
+}
+.map{
+  top:40px;
+  bottom:70px;
+}
+
+.timeline{
+  height:70px;
+  bottom:0;
+}
+
+.windows{
+  position:absolute;
+  top:0;
+  left: 0;
+  right: 0;
+  bottom:0;
+  pointer-events: none;
+  padding: 20px 20px 20px 70px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.window{
+  margin-left:20px;
+  pointer-events: auto;
+  background-color: #202123;
+  box-shadow: 0 0px 15px 4px rgba(10,10,10,0.5);
+}
+
+.window-form{
+  padding:20px;
+}
+
+.AddMessageWindow{
+  width:300px;
+}
+.ShipDetails{
+  width:300px;
+}
+.ShipEntries{
+  align-self:stretch;
+  margin-left:auto;
+}
+
+.MouseHelper {
+  background:none !important
+
+  &::after{
+    border:none !important
+  }
+}
